@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">view</string>
+    <string name="title_activity_view_size_change">ViewSizeChangeActivity</string>
+</resources>

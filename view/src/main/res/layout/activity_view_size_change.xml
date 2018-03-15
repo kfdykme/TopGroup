@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="xyz.kfdykme.view.ViewSizeChangeActivity">
+
+    <xyz.kfdykme.view.TopGroup
+        android:id="@+id/topGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </xyz.kfdykme.view.TopGroup>
+    <SeekBar
+        android:id="@+id/hSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <SeekBar
+        android:id="@+id/vSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="-270dp"
+        android:layout_centerVertical="true"
+        android:rotation="90"/>
+</RelativeLayout>
