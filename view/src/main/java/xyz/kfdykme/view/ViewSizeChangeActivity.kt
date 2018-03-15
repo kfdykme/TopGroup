@@ -1,16 +1,13 @@
 package xyz.kfdykme.view
 
+import android.app.Activity
 import android.content.Intent
-import android.os.Bundle
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity
-import android.util.Log
-import android.view.View
+import android.os.Bundle 
 import android.widget.SeekBar
 
 import kotlinx.android.synthetic.main.activity_view_size_change.*
 
-class ViewSizeChangeActivity : AppCompatActivity() {
+class ViewSizeChangeActivity : Activity() {
 
     lateinit var vh:TopViewHolder
 
